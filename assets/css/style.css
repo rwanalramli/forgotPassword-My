@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'DIN Next LT Arabic';
+    src: url('../fonts/DINNextLTArabic-Light.eot');
+    src: url('../fonts/DINNextLTArabic-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DINNextLTArabic-Light.woff2') format('woff2'),
+         url('../fonts/DINNextLTArabic-Light.woff') format('woff'),
+         url('../fonts/DINNextLTArabic-Light.ttf')  format('truetype'),
+         url('../fonts/DINNextLTArabic-Light.svg#DIN Next LT Arabic') format('svg');
+}
+.forgotPassword {
+  background-color: #f86500;
+  font-family: 'DIN Next LT Arabic';
+  text-align: center;
+
+}
+.container{
+ 
+
+}
+
+.forgotPassword h2{
+    color: #f86500;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.forgotPassword img{
+      margin: 20px auto;
+
+}
+
+.forgotPassword p{
+      color: #f86500;
+      margin: 0px 0 35px 0;
+      font-size: 18px;
+      font-weight: 600;
+}
+
+.forgotPassword form.form{
+
+}
+.forgotPassword .form-wrapper {
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 40%;
+    min-width: 300px;
+    padding: 50px 30px 50px 30px;
+    margin: 70px auto;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+.forgotPassword .form-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.forgotPassword .form-label {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  color: #000000;
+  background-color: #fff;
+  z-index: 10;
+  font-size: 18px;
+  font-weight: 600;
+  transition: transform 300ms ease-out, font-size 300ms ease-out;
+}
+
+.forgotPassword .focused .form-label {
+  transform: translateY(-125%);
+    font-size: 13px;
+}
+
+.forgotPassword .form-input {
+  position: relative;
+  padding: 15px 20px 5px 0;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 0 0 #f86500;
+  transition: box-shadow 150ms ease-out;
+}
+
+.forgotPassword .form-input.filled {
+  box-shadow: 0 1px 0 0 #f86500;
+}
+
+.forgotPassword .btn-primary {
+    margin: 20px auto;
+    padding: 10px 0;
+    background-color: #f86500;
+    border-color: #f86500;
+    width: 85%;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.forgotPassword .btn-primary:hover {
+    background-color: #333;
+    border-color: #333;
+
+}
